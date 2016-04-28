@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE70FD681C3B7D8600540EE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FD671C3B7D8600540EE7 /* main.m */; };
+		DE70FD6B1C3B7D8600540EE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FD6A1C3B7D8600540EE7 /* AppDelegate.m */; };
+		DE70FD6E1C3B7D8600540EE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FD6D1C3B7D8600540EE7 /* ViewController.m */; };
+		DE70FD711C3B7D8600540EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE70FD6F1C3B7D8600540EE7 /* Main.storyboard */; };
+		DE70FD731C3B7D8600540EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE70FD721C3B7D8600540EE7 /* Assets.xcassets */; };
+		DE70FD761C3B7D8600540EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE70FD741C3B7D8600540EE7 /* LaunchScreen.storyboard */; };
+		DE70FD811C3B7D8700540EE7 /* imagetextButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FD801C3B7D8700540EE7 /* imagetextButtonTests.m */; };
+		DE70FD8C1C3B7D8700540EE7 /* imagetextButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FD8B1C3B7D8700540EE7 /* imagetextButtonUITests.m */; };
+		DE70FD9B1C3B7D9E00540EE7 /* ImageTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FD9A1C3B7D9E00540EE7 /* ImageTextButton.m */; };
+		DE70FD9D1C3B7DE500540EE7 /* logo_58.png in Resources */ = {isa = PBXBuildFile; fileRef = DE70FD9C1C3B7DE500540EE7 /* logo_58.png */; };
+		DE70FDB81C3B7F4700540EE7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDA01C3B7F4700540EE7 /* MASCompositeConstraint.m */; };
+		DE70FDB91C3B7F4700540EE7 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDA31C3B7F4700540EE7 /* MASConstraint.m */; };
+		DE70FDBA1C3B7F4700540EE7 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDA51C3B7F4700540EE7 /* MASConstraintMaker.m */; };
+		DE70FDBB1C3B7F4700540EE7 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDA71C3B7F4700540EE7 /* MASLayoutConstraint.m */; };
+		DE70FDBC1C3B7F4700540EE7 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDAB1C3B7F4700540EE7 /* MASViewAttribute.m */; };
+		DE70FDBD1C3B7F4700540EE7 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDAD1C3B7F4700540EE7 /* MASViewConstraint.m */; };
+		DE70FDBE1C3B7F4700540EE7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDAF1C3B7F4700540EE7 /* NSArray+MASAdditions.m */; };
+		DE70FDBF1C3B7F4700540EE7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDB21C3B7F4700540EE7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		DE70FDC01C3B7F4700540EE7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDB41C3B7F4700540EE7 /* View+MASAdditions.m */; };
+		DE70FDC11C3B7F4700540EE7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE70FDB71C3B7F4700540EE7 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE70FD7D1C3B7D8700540EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE70FD5B1C3B7D8600540EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE70FD621C3B7D8600540EE7;
+			remoteInfo = imagetextButton;
+		};
+		DE70FD881C3B7D8700540EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE70FD5B1C3B7D8600540EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE70FD621C3B7D8600540EE7;
+			remoteInfo = imagetextButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE70FD631C3B7D8600540EE7 /* imagetextButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imagetextButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE70FD671C3B7D8600540EE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE70FD691C3B7D8600540EE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE70FD6A1C3B7D8600540EE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE70FD6C1C3B7D8600540EE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE70FD6D1C3B7D8600540EE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE70FD701C3B7D8600540EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE70FD721C3B7D8600540EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE70FD751C3B7D8600540EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE70FD771C3B7D8600540EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE70FD7C1C3B7D8700540EE7 /* imagetextButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imagetextButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE70FD801C3B7D8700540EE7 /* imagetextButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imagetextButtonTests.m; sourceTree = "<group>"; };
+		DE70FD821C3B7D8700540EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE70FD871C3B7D8700540EE7 /* imagetextButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imagetextButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE70FD8B1C3B7D8700540EE7 /* imagetextButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imagetextButtonUITests.m; sourceTree = "<group>"; };
+		DE70FD8D1C3B7D8700540EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE70FD991C3B7D9E00540EE7 /* ImageTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTextButton.h; sourceTree = "<group>"; };
+		DE70FD9A1C3B7D9E00540EE7 /* ImageTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTextButton.m; sourceTree = "<group>"; };
+		DE70FD9C1C3B7DE500540EE7 /* logo_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_58.png; sourceTree = "<group>"; };
+		DE70FD9F1C3B7F4700540EE7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DE70FDA01C3B7F4700540EE7 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		DE70FDA11C3B7F4700540EE7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DE70FDA21C3B7F4700540EE7 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		DE70FDA31C3B7F4700540EE7 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		DE70FDA41C3B7F4700540EE7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		DE70FDA51C3B7F4700540EE7 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		DE70FDA61C3B7F4700540EE7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DE70FDA71C3B7F4700540EE7 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		DE70FDA81C3B7F4700540EE7 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		DE70FDA91C3B7F4700540EE7 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		DE70FDAA1C3B7F4700540EE7 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		DE70FDAB1C3B7F4700540EE7 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		DE70FDAC1C3B7F4700540EE7 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		DE70FDAD1C3B7F4700540EE7 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		DE70FDAE1C3B7F4700540EE7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DE70FDAF1C3B7F4700540EE7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		DE70FDB01C3B7F4700540EE7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DE70FDB11C3B7F4700540EE7 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		DE70FDB21C3B7F4700540EE7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		DE70FDB31C3B7F4700540EE7 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		DE70FDB41C3B7F4700540EE7 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		DE70FDB51C3B7F4700540EE7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DE70FDB61C3B7F4700540EE7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DE70FDB71C3B7F4700540EE7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE70FD601C3B7D8600540EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE70FD791C3B7D8700540EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE70FD841C3B7D8700540EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE70FD5A1C3B7D8600540EE7 = {
+			isa = PBXGroup;
+			children = (
+				DE70FD651C3B7D8600540EE7 /* imagetextButton */,
+				DE70FD7F1C3B7D8700540EE7 /* imagetextButtonTests */,
+				DE70FD8A1C3B7D8700540EE7 /* imagetextButtonUITests */,
+				DE70FD641C3B7D8600540EE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE70FD641C3B7D8600540EE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE70FD631C3B7D8600540EE7 /* imagetextButton.app */,
+				DE70FD7C1C3B7D8700540EE7 /* imagetextButtonTests.xctest */,
+				DE70FD871C3B7D8700540EE7 /* imagetextButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE70FD651C3B7D8600540EE7 /* imagetextButton */ = {
+			isa = PBXGroup;
+			children = (
+				DE70FD9E1C3B7F4700540EE7 /* Masonry */,
+				DE70FD9C1C3B7DE500540EE7 /* logo_58.png */,
+				DE70FD991C3B7D9E00540EE7 /* ImageTextButton.h */,
+				DE70FD9A1C3B7D9E00540EE7 /* ImageTextButton.m */,
+				DE70FD691C3B7D8600540EE7 /* AppDelegate.h */,
+				DE70FD6A1C3B7D8600540EE7 /* AppDelegate.m */,
+				DE70FD6C1C3B7D8600540EE7 /* ViewController.h */,
+				DE70FD6D1C3B7D8600540EE7 /* ViewController.m */,
+				DE70FD6F1C3B7D8600540EE7 /* Main.storyboard */,
+				DE70FD721C3B7D8600540EE7 /* Assets.xcassets */,
+				DE70FD741C3B7D8600540EE7 /* LaunchScreen.storyboard */,
+				DE70FD771C3B7D8600540EE7 /* Info.plist */,
+				DE70FD661C3B7D8600540EE7 /* Supporting Files */,
+			);
+			path = imagetextButton;
+			sourceTree = "<group>";
+		};
+		DE70FD661C3B7D8600540EE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE70FD671C3B7D8600540EE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE70FD7F1C3B7D8700540EE7 /* imagetextButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE70FD801C3B7D8700540EE7 /* imagetextButtonTests.m */,
+				DE70FD821C3B7D8700540EE7 /* Info.plist */,
+			);
+			path = imagetextButtonTests;
+			sourceTree = "<group>";
+		};
+		DE70FD8A1C3B7D8700540EE7 /* imagetextButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE70FD8B1C3B7D8700540EE7 /* imagetextButtonUITests.m */,
+				DE70FD8D1C3B7D8700540EE7 /* Info.plist */,
+			);
+			path = imagetextButtonUITests;
+			sourceTree = "<group>";
+		};
+		DE70FD9E1C3B7F4700540EE7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DE70FD9F1C3B7F4700540EE7 /* MASCompositeConstraint.h */,
+				DE70FDA01C3B7F4700540EE7 /* MASCompositeConstraint.m */,
+				DE70FDA11C3B7F4700540EE7 /* MASConstraint+Private.h */,
+				DE70FDA21C3B7F4700540EE7 /* MASConstraint.h */,
+				DE70FDA31C3B7F4700540EE7 /* MASConstraint.m */,
+				DE70FDA41C3B7F4700540EE7 /* MASConstraintMaker.h */,
+				DE70FDA51C3B7F4700540EE7 /* MASConstraintMaker.m */,
+				DE70FDA61C3B7F4700540EE7 /* MASLayoutConstraint.h */,
+				DE70FDA71C3B7F4700540EE7 /* MASLayoutConstraint.m */,
+				DE70FDA81C3B7F4700540EE7 /* Masonry.h */,
+				DE70FDA91C3B7F4700540EE7 /* MASUtilities.h */,
+				DE70FDAA1C3B7F4700540EE7 /* MASViewAttribute.h */,
+				DE70FDAB1C3B7F4700540EE7 /* MASViewAttribute.m */,
+				DE70FDAC1C3B7F4700540EE7 /* MASViewConstraint.h */,
+				DE70FDAD1C3B7F4700540EE7 /* MASViewConstraint.m */,
+				DE70FDAE1C3B7F4700540EE7 /* NSArray+MASAdditions.h */,
+				DE70FDAF1C3B7F4700540EE7 /* NSArray+MASAdditions.m */,
+				DE70FDB01C3B7F4700540EE7 /* NSArray+MASShorthandAdditions.h */,
+				DE70FDB11C3B7F4700540EE7 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DE70FDB21C3B7F4700540EE7 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				DE70FDB31C3B7F4700540EE7 /* View+MASAdditions.h */,
+				DE70FDB41C3B7F4700540EE7 /* View+MASAdditions.m */,
+				DE70FDB51C3B7F4700540EE7 /* View+MASShorthandAdditions.h */,
+				DE70FDB61C3B7F4700540EE7 /* ViewController+MASAdditions.h */,
+				DE70FDB71C3B7F4700540EE7 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE70FD621C3B7D8600540EE7 /* imagetextButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE70FD901C3B7D8700540EE7 /* Build configuration list for PBXNativeTarget "imagetextButton" */;
+			buildPhases = (
+				DE70FD5F1C3B7D8600540EE7 /* Sources */,
+				DE70FD601C3B7D8600540EE7 /* Frameworks */,
+				DE70FD611C3B7D8600540EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imagetextButton;
+			productName = imagetextButton;
+			productReference = DE70FD631C3B7D8600540EE7 /* imagetextButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE70FD7B1C3B7D8700540EE7 /* imagetextButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE70FD931C3B7D8700540EE7 /* Build configuration list for PBXNativeTarget "imagetextButtonTests" */;
+			buildPhases = (
+				DE70FD781C3B7D8700540EE7 /* Sources */,
+				DE70FD791C3B7D8700540EE7 /* Frameworks */,
+				DE70FD7A1C3B7D8700540EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE70FD7E1C3B7D8700540EE7 /* PBXTargetDependency */,
+			);
+			name = imagetextButtonTests;
+			productName = imagetextButtonTests;
+			productReference = DE70FD7C1C3B7D8700540EE7 /* imagetextButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE70FD861C3B7D8700540EE7 /* imagetextButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE70FD961C3B7D8700540EE7 /* Build configuration list for PBXNativeTarget "imagetextButtonUITests" */;
+			buildPhases = (
+				DE70FD831C3B7D8700540EE7 /* Sources */,
+				DE70FD841C3B7D8700540EE7 /* Frameworks */,
+				DE70FD851C3B7D8700540EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE70FD891C3B7D8700540EE7 /* PBXTargetDependency */,
+			);
+			name = imagetextButtonUITests;
+			productName = imagetextButtonUITests;
+			productReference = DE70FD871C3B7D8700540EE7 /* imagetextButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE70FD5B1C3B7D8600540EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "innos-campus";
+				TargetAttributes = {
+					DE70FD621C3B7D8600540EE7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DE70FD7B1C3B7D8700540EE7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DE70FD621C3B7D8600540EE7;
+					};
+					DE70FD861C3B7D8700540EE7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DE70FD621C3B7D8600540EE7;
+					};
+				};
+			};
+			buildConfigurationList = DE70FD5E1C3B7D8600540EE7 /* Build configuration list for PBXProject "imagetextButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE70FD5A1C3B7D8600540EE7;
+			productRefGroup = DE70FD641C3B7D8600540EE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE70FD621C3B7D8600540EE7 /* imagetextButton */,
+				DE70FD7B1C3B7D8700540EE7 /* imagetextButtonTests */,
+				DE70FD861C3B7D8700540EE7 /* imagetextButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE70FD611C3B7D8600540EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE70FD761C3B7D8600540EE7 /* LaunchScreen.storyboard in Resources */,
+				DE70FD731C3B7D8600540EE7 /* Assets.xcassets in Resources */,
+				DE70FD711C3B7D8600540EE7 /* Main.storyboard in Resources */,
+				DE70FD9D1C3B7DE500540EE7 /* logo_58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE70FD7A1C3B7D8700540EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE70FD851C3B7D8700540EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE70FD5F1C3B7D8600540EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE70FDBA1C3B7F4700540EE7 /* MASConstraintMaker.m in Sources */,
+				DE70FD9B1C3B7D9E00540EE7 /* ImageTextButton.m in Sources */,
+				DE70FD6E1C3B7D8600540EE7 /* ViewController.m in Sources */,
+				DE70FDB91C3B7F4700540EE7 /* MASConstraint.m in Sources */,
+				DE70FDC11C3B7F4700540EE7 /* ViewController+MASAdditions.m in Sources */,
+				DE70FDBB1C3B7F4700540EE7 /* MASLayoutConstraint.m in Sources */,
+				DE70FDBE1C3B7F4700540EE7 /* NSArray+MASAdditions.m in Sources */,
+				DE70FDBD1C3B7F4700540EE7 /* MASViewConstraint.m in Sources */,
+				DE70FDBC1C3B7F4700540EE7 /* MASViewAttribute.m in Sources */,
+				DE70FDC01C3B7F4700540EE7 /* View+MASAdditions.m in Sources */,
+				DE70FD6B1C3B7D8600540EE7 /* AppDelegate.m in Sources */,
+				DE70FD681C3B7D8600540EE7 /* main.m in Sources */,
+				DE70FDB81C3B7F4700540EE7 /* MASCompositeConstraint.m in Sources */,
+				DE70FDBF1C3B7F4700540EE7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE70FD781C3B7D8700540EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE70FD811C3B7D8700540EE7 /* imagetextButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE70FD831C3B7D8700540EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE70FD8C1C3B7D8700540EE7 /* imagetextButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE70FD7E1C3B7D8700540EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE70FD621C3B7D8600540EE7 /* imagetextButton */;
+			targetProxy = DE70FD7D1C3B7D8700540EE7 /* PBXContainerItemProxy */;
+		};
+		DE70FD891C3B7D8700540EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE70FD621C3B7D8600540EE7 /* imagetextButton */;
+			targetProxy = DE70FD881C3B7D8700540EE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE70FD6F1C3B7D8600540EE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE70FD701C3B7D8600540EE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE70FD741C3B7D8600540EE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE70FD751C3B7D8600540EE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE70FD8E1C3B7D8700540EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE70FD8F1C3B7D8700540EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE70FD911C3B7D8700540EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = imagetextButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = innos.imagetextButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE70FD921C3B7D8700540EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = imagetextButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = innos.imagetextButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE70FD941C3B7D8700540EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = imagetextButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = innos.imagetextButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imagetextButton.app/imagetextButton";
+			};
+			name = Debug;
+		};
+		DE70FD951C3B7D8700540EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = imagetextButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = innos.imagetextButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imagetextButton.app/imagetextButton";
+			};
+			name = Release;
+		};
+		DE70FD971C3B7D8700540EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = imagetextButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = innos.imagetextButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = imagetextButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DE70FD981C3B7D8700540EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = imagetextButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = innos.imagetextButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = imagetextButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE70FD5E1C3B7D8600540EE7 /* Build configuration list for PBXProject "imagetextButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE70FD8E1C3B7D8700540EE7 /* Debug */,
+				DE70FD8F1C3B7D8700540EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE70FD901C3B7D8700540EE7 /* Build configuration list for PBXNativeTarget "imagetextButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE70FD911C3B7D8700540EE7 /* Debug */,
+				DE70FD921C3B7D8700540EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE70FD931C3B7D8700540EE7 /* Build configuration list for PBXNativeTarget "imagetextButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE70FD941C3B7D8700540EE7 /* Debug */,
+				DE70FD951C3B7D8700540EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE70FD961C3B7D8700540EE7 /* Build configuration list for PBXNativeTarget "imagetextButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE70FD971C3B7D8700540EE7 /* Debug */,
+				DE70FD981C3B7D8700540EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE70FD5B1C3B7D8600540EE7 /* Project object */;
+}

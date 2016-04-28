@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JqO-og-S3a" customClass="ImageTextButton">
+                                <rect key="frame" x="0.0" y="20" width="300" height="290"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="这是你的按钮" image="logo_58.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0V-Kt-nok" customClass="ImageTextButton">
+                                <rect key="frame" x="300" y="20" width="300" height="290"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="这是你的按钮" image="logo_58.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imgTextDistance">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8y2-C3-9dZ" customClass="ImageTextButton">
+                                <rect key="frame" x="300" y="310" width="300" height="290"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="这是按钮" image="logo_58.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cf-P1-0PA" customClass="ImageTextButton">
+                                <rect key="frame" x="0.0" y="310" width="300" height="290"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="这是按钮" image="logo_58.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3cf-P1-0PA" firstAttribute="height" secondItem="JqO-og-S3a" secondAttribute="height" id="03f-3t-trC"/>
+                            <constraint firstItem="JqO-og-S3a" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="0bE-AY-Edq"/>
+                            <constraint firstItem="8y2-C3-9dZ" firstAttribute="width" secondItem="JqO-og-S3a" secondAttribute="width" id="2dT-9q-0TF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3cf-P1-0PA" secondAttribute="bottom" id="4vr-8Z-E8X"/>
+                            <constraint firstItem="JqO-og-S3a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8aH-tb-qKg"/>
+                            <constraint firstItem="8y2-C3-9dZ" firstAttribute="height" secondItem="JqO-og-S3a" secondAttribute="height" id="9sY-bk-XRQ"/>
+                            <constraint firstItem="JqO-og-S3a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CY0-LT-BZv"/>
+                            <constraint firstAttribute="trailing" secondItem="8y2-C3-9dZ" secondAttribute="trailing" id="IaQ-sS-lLZ"/>
+                            <constraint firstItem="Z0V-Kt-nok" firstAttribute="width" secondItem="JqO-og-S3a" secondAttribute="width" id="JO1-iI-Z3s"/>
+                            <constraint firstItem="Z0V-Kt-nok" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KwR-2k-dkk"/>
+                            <constraint firstAttribute="trailing" secondItem="JqO-og-S3a" secondAttribute="trailing" id="MOd-5B-YxE"/>
+                            <constraint firstItem="JqO-og-S3a" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="RO0-24-chc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JqO-og-S3a" secondAttribute="bottom" id="YPs-Iv-vR0"/>
+                            <constraint firstItem="8y2-C3-9dZ" firstAttribute="leading" secondItem="3cf-P1-0PA" secondAttribute="trailing" id="YiK-su-2WO"/>
+                            <constraint firstItem="3cf-P1-0PA" firstAttribute="top" secondItem="JqO-og-S3a" secondAttribute="bottom" id="YkH-gL-apP"/>
+                            <constraint firstItem="Z0V-Kt-nok" firstAttribute="height" secondItem="JqO-og-S3a" secondAttribute="height" id="ecf-js-gtm"/>
+                            <constraint firstAttribute="trailing" secondItem="Z0V-Kt-nok" secondAttribute="trailing" id="kpt-Kv-FpK"/>
+                            <constraint firstItem="3cf-P1-0PA" firstAttribute="width" secondItem="JqO-og-S3a" secondAttribute="width" id="noo-Sf-D8m"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8y2-C3-9dZ" secondAttribute="bottom" id="rxd-Mn-wGh"/>
+                            <constraint firstItem="3cf-P1-0PA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="st3-9V-ZRC"/>
+                            <constraint firstItem="8y2-C3-9dZ" firstAttribute="top" secondItem="Z0V-Kt-nok" secondAttribute="bottom" id="vEz-e4-p1R"/>
+                            <constraint firstItem="Z0V-Kt-nok" firstAttribute="leading" secondItem="JqO-og-S3a" secondAttribute="trailing" id="wbX-qm-xpI"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8aH-tb-qKg"/>
+                                <exclude reference="MOd-5B-YxE"/>
+                                <exclude reference="RO0-24-chc"/>
+                                <exclude reference="YPs-Iv-vR0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="btn" destination="JqO-og-S3a" id="JFB-SN-ZZJ"/>
+                        <outlet property="btn1" destination="Z0V-Kt-nok" id="SCV-6S-k5I"/>
+                        <outlet property="btn2" destination="3cf-P1-0PA" id="Y5T-oY-47V"/>
+                        <outlet property="btn3" destination="8y2-C3-9dZ" id="VIX-Ju-TCF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="416"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_58.png" width="58" height="58"/>
+    </resources>
+</document>
